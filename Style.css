@@ -1,0 +1,78 @@
+﻿.BlurBack {
+    background-image: url("polygon-26677-2560x1440.jpg");
+    /*Blur*/
+    -webkit-filter: blur(4.5px);
+    /* Full height */
+    height: 100%;
+    /* Scale Image */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outline {
+    color: black;
+    text-shadow: 3px 2px 0px black;
+}
+
+.midBox {
+    width: 50%;
+    height: 60%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.95); /* Black w/opacity/see-through */
+    color: white;
+    border: 3px solid white;
+    outline: double 4px #6a85eb;
+    position: absolute;
+    padding: 10px;
+    top: 110%;
+    left: 40%;
+    text-align: center;
+}
+
+.sideBox {
+    margin: auto;
+    width: 25%;
+    height: 60%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.95);
+    color: white;
+    border: 3px solid white;
+    outline: double 4px #6a85eb;
+    position: absolute;
+    padding: 10px;
+    top: 110%;
+    left: 12%;
+    text-align: center;
+}
+
+
+.sideheader {
+    padding: 100px;
+    height: 10%;
+    text-align: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 50px 50px 50px 0 black inset, -50px -50px 50px 20px black inset;
+    opacity: 0.7;
+    font-size: 60px;
+}
+
+.viewport-header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

@@ -10,16 +10,12 @@
     background-size: cover;
 }
 
-.outline {
-    color: black;
-    text-shadow: 3px 2px 0px black;
-}
 
 .midBox {
     width: 50%;
     height: 60%;
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.95); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.85); /* Black w/opacity/see-through */
     color: white;
     border: 3px solid white;
     outline: double 4px #6a85eb;
@@ -28,6 +24,20 @@
     top: 110%;
     left: 40%;
     text-align: center;
+}
+
+.sideheader {
+    background-image: url("https://i.dlpng.com/static/png/6794747_preview.png");
+    padding: 100px;
+    height: 10%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 50px 50px 50px 0 black inset, -50px -50px 50px 20px black inset;
+    font-size: 60px;
+    opacity: 0.50;
+    border-bottom: 3px solid white;
 }
 
 .sideBox {
@@ -44,19 +54,6 @@
     top: 110%;
     left: 12%;
     text-align: center;
-}
-
-
-.sideheader {
-    padding: 100px;
-    height: 10%;
-    text-align: center;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 50px 50px 50px 0 black inset, -50px -50px 50px 20px black inset;
-    opacity: 0.7;
-    font-size: 60px;
 }
 
 .viewport-header {

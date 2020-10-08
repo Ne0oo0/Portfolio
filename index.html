@@ -15,6 +15,13 @@
 	<!-- Title -->
 	<title style="font-family:'MS Gothic'">Preston McCubbin Portfolio</title>
 
+	<script>
+		$(document).ready(function () {
+			console.log("read");
+			$("#title1").fadeIn(4000);
+		});
+	</script>
+
 	<style>
 		body, html {
 			height: 100%;
@@ -22,7 +29,10 @@
 		}
 
 		ul {
-			font-size: 40px;
+			font-family: 'Syncopate', sans-serif;
+			color: white;
+			letter-spacing: 0.2vw;
+			font-size: 2vw;
 			height: 5.5%;
 			position: fixed;
 			top: 0;
@@ -36,6 +46,7 @@
 
 		li {
 			float: left;
+			border-right: 0.80px solid white;
 		}
 			/*hyperlink*/
 			li a {
@@ -64,22 +75,34 @@
 			text-align: center;
 		}
 
-		rightboxh1 {
-			font-family: 'Syncopate', sans-serif;
+		Rboxh1 {
+			font-size: 50px;
+			font-family: Raleway;
 			color: white;
 			text-transform: uppercase;
 			letter-spacing: 0.60vw;
 			line-height: 1.2;
-			font-size: 3vw;
+			font-size: 2.4vw;
 			text-align: center;
 		}
 
-		h2 {
-			font-size: 20px;
+		Rboxh2 {
+			font-size: 50px;
+			font-family: Raleway;
+			color: #c1d9ff;
+			letter-spacing: 0.10vw;
+			line-height: 1;
+			font-size: 1.0vw;
+			text-align: center;
+		}
+
+		Rboxp1 {
 			font-family: 'Syncopate', sans-serif;
-			text-align: left;
+			color: lightgrey;
+			font-size: 1.2vw;
 			line-height: 40px;
-			font-weight: normal;
+			font-weight: lighter;
+			text-align: right;
 		}
 
 
@@ -100,7 +123,7 @@
 	</video>
 
 	<header class="viewport-header">
-		<h1>
+		<h1 id="title1" style="display:none">
 			Preston McCubbin
 			Portfolio
 
@@ -116,8 +139,9 @@
 	</ul>
 
 	<div class="midBox">
-		<rightboxh1 style="font-size: 50px; font-family: Raleway"><uline>ABOUT ME</uline></rightboxh1>
-		<h2>I’m a person that is dedicated to my work and willing to go the extra mile to make sure my work gives me satisfaction. I grew up around a brother therefore I believe working around others is better for me, although I can still handle things on my own. I’m passionate about technology and my hobbies such as video games, pop culture, and movies. I adapt to new experiences/routines rather quickly and willing to learn what i need to better myself.</h2>
+		<Rboxh1 style=""><uline>Preston McCubbin</uline></Rboxh1>
+		<h3><Rboxh2>18 years / Kentucky / CompScience</Rboxh2></h3>
+		<p1><Rboxp1>I’m a person that is dedicated to my work and willing to go the extra mile to make sure my work gives me satisfaction. I grew up around a brother therefore I believe working around others is better for me, although I can still handle things on my own. I’m passionate about technology and my hobbies such as video games, pop culture, and movies. I adapt to new experiences/routines rather quickly and willing to learn what i need to better myself.</Rboxp1></p1>
 
 	</div>
 	<div class="sideBox">

@@ -39,7 +39,7 @@
         });
 
 		$(document).ready(function () {
-			$("#certs").fadeIn(5500);
+			$("#exampletext").fadeIn(5500);
 		});
 
 
@@ -50,6 +50,7 @@
             height: 108%;
             margin: 0;
         }
+        
 
         h1 {
             font-family: 'Syncopate', sans-serif;
@@ -115,7 +116,8 @@
 
     <div id="botBox" class="botBox">
         <a href="https://github.com/Ne0oo0">
-            <img style="height:7vw; float:left;" alt="GithubLogo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fgithub-11-xxl.png&f=1&nofb=1"></a><h3 style="text-align:left; color: white; font-weight:lighter">-- Github Link</h3>
+            <img style="height:7vw; float:left;" alt="GithubLogo" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fpreview%2Fwhite%2Fgithub-11-xxl.png&f=1&nofb=1">
+        </a><h3 style="text-align:left; color: white; font-weight:lighter">-- Github Link</h3>
     </div>
 
     <div id="midBox" class="midBox">
@@ -130,7 +132,7 @@
         <dl id="skills" class="skillsUL">
             <dt style="font-size:1.1vw;">Computer Science: <p1 style="color:darkgrey; font-size: 0.9vw;">For Highschool i spent my time in the Computer Science career pathway. This pathway prepared me exceptionally for my future plans and career in this field. I've learned 3 years worth of Python, but also worked on many other languages. These include but not limited to, HTML, CSS, C, C++. We also deeply learned Computational thinking skills and learned about the world through a technological lense</p1></dt>
 
-            
+
 
             <dt style="font-size:1.1vw;">Beyond the class: <p1 style="color:darkgrey; font-size: 0.9vw;">Because of my education in computer science it has allowed me to adventure onto my own projects and hobbies. Working on my own projects has help me learn a lot i wouldn't have known otherwise. I try to stay ontop of projects such as Unity game ideas that i have, to 3D modeling something learning further of what i can achieve.</p1></dt>
         </dl>
@@ -141,8 +143,12 @@
     </div>
 
     <div id="sideBox" class="sideBox">
-        
-
+        <h3 style="text-align:right; color: white; font-weight:lighter; font-size:25px">Own Project</h3>
+        <video autoplay muted loop id="example" class="example">
+            <source src="turret.mp4" type="video/mp4">
+        </video>
+        <hr style="width:14vw; position: absolute; top:70%; left:5%">
+        <p1 id="exampletext" style="color:white; font-size: 1.2vw; text-align:left; position: absolute; top:75%; left:5%; display:none">An example project I had done trying to reconstruct a item from a video game. I 3D printed parts, assembled, painted, wired it, and programmed it to rotate.</p1>
     </div>
 </body>
 </html>

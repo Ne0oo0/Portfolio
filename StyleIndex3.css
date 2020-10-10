@@ -134,6 +134,15 @@
     left: 0;
 }
 
+.example {
+    border: 5px solid #6a85eb;
+    width: 13.2vw;
+    height: 20vw;
+    position: absolute;
+    top:3%;
+    left: 5%;
+}
+
 /*.viewport-header {
     position: relative;
     height: 100%;

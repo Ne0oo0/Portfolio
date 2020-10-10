@@ -1,21 +1,55 @@
-﻿.BlurBack {
-    background-image: url("polygon-26677-2560x1440.jpg");
-    /*Blur*/
-    -webkit-filter: blur(4.5px);
-    /* Full height */
-    height: 100%;
-    /* Scale Image */
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+﻿/*Bar customize*/
+.topBar {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    letter-spacing: 0.2vw;
+    font-size: 1.5vw;
+    height: 2.0vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #8ba3ff;
+}
+    /*hyperlink customize*/
+    .topBar a {
+        text-shadow: 1px 2px 0px black;
+        color: white;
+        text-align: center;
+        padding: 10px 40px;
+        text-decoration: none;
+    }
+    /*hover customize*/
+    .topBar a:hover {
+        border: thin solid black;
+        background-color: #728eee
+    }
+    /*active customize*/
+    .topBar a.active {
+        text-shadow: 1px 2px 0px white;
+        background-color: white;
+        color: black
+    }
+
+
+/*skills list customize*/
+.skillsUL {
+    font-family: 'Syncopate', sans-serif;
+    list-style: circle;
+    margin: 10px;
+    color: white;
+    text-align: left;
+    line-height:2vw
 }
 
-
+/*middle large box customize*/
 .midBox {
     width: 50%;
     height: 60%;
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.85); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.90); /* Black w/opacity/see-through */
     color: white;
     border: 3px solid white;
     outline: double 4px #6a85eb;
@@ -25,9 +59,9 @@
     left: 40%;
     text-align: center;
 }
-
+/*header customize*/
 .sideheader {
-    background-image: url("https://i.dlpng.com/static/png/6794747_preview.png");
+    background-image: url("sideimage.jpg");
     padding: 100px;
     height: 10%;
     text-align: center;
@@ -39,7 +73,7 @@
     opacity: 0.50;
     border-bottom: 3px solid white;
 }
-
+/*left side box customize*/
 .sideBox {
     margin: auto;
     width: 25%;
@@ -65,6 +99,7 @@
     justify-content: center;
 }
 
+/*background video positioning*/
 #myVideo {
     object-fit: cover;
     width: 100vw;

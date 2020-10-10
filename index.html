@@ -17,7 +17,6 @@
 
 	<script>
 		$(document).ready(function () {
-			console.log("read");
 			$("#title1").fadeIn(4000);
 		});
 	</script>
@@ -27,43 +26,6 @@
 			height: 100%;
 			margin: 0;
 		}
-
-		ul {
-			font-family: 'Syncopate', sans-serif;
-			color: white;
-			letter-spacing: 0.2vw;
-			font-size: 2vw;
-			height: 5.5%;
-			position: fixed;
-			top: 0;
-			width: 100%;
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #6a85eb;
-		}
-
-		li {
-			float: left;
-			border-right: 0.80px solid white;
-		}
-			/*hyperlink*/
-			li a {
-				text-shadow: 1px 2px 0px black;
-				color: white;
-				text-align: center;
-				padding: 10px 40px;
-				text-decoration: none;
-			}
-				/*Hover Hypelink*/
-				li a:hover {
-					background-color: #8e9fdb
-				}
-
-				li a:active {
-					background-color: #8e9fdb
-				}
 
 		h1 {
 			font-family: 'Syncopate', sans-serif;
@@ -99,7 +61,7 @@
 		Rboxp1 {
 			font-family: 'Syncopate', sans-serif;
 			color: lightgrey;
-			font-size: 1.2vw;
+			font-size: 1.1vw;
 			line-height: 40px;
 			font-weight: lighter;
 			text-align: right;
@@ -130,23 +92,43 @@
 		</h1>
 	</header>
 
-	<ul>
-		<li><a href="#Home">Home</a></li>
-		<li><a href="#AboutMe">About me</a></li>
-		<li><a href="#Exp">Experience</a></li>
-		<li><a href="#Aca">Academics</a></li>
-		<li><a href="#Career">Career</a></li>
-	</ul>
+	<div class="topBar">
+		<a class="active" href="index.html">Home</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+	</div>
 
 	<div class="midBox">
-		<Rboxh1 style=""><uline>Preston McCubbin</uline></Rboxh1>
+		<Rboxh1 style="">Preston McCubbin</Rboxh1>
+
+		<hr style="width:45vw">
+
 		<h3><Rboxh2>18 years / Kentucky / CompScience</Rboxh2></h3>
+
+		<hr style="width:5vw">
+
 		<p1><Rboxp1>I’m a person that is dedicated to my work and willing to go the extra mile to make sure my work gives me satisfaction. I grew up around a brother therefore I believe working around others is better for me, although I can still handle things on my own. I’m passionate about technology and my hobbies such as video games, pop culture, and movies. I adapt to new experiences/routines rather quickly and willing to learn what i need to better myself.</Rboxp1></p1>
+
+		<hr style="width:35vw">
+		<a href="Resume.pdf" download>
+			<img style="float:left; filter: hue-rotate(180deg);" src="resume.png" alt="resumeIcon" height="87">
+		</a>
+		<h3 style="text-align:left; color: white; font-weight:lighter">-- Resume download</h3>
+
 
 	</div>
 	<div class="sideBox">
 		<div class="sideheader">
 		</div>
+		<dl class="skillsUL">
+			<dt>Computational thinking skills - <p1 style="color:darkgrey">4+ years</p1></dt>
+			<dt>3D modeling - <p1 style="color:darkgrey">less than 1 year</p1></dt>
+			<dt>Python - <p1 style="color:darkgrey">3+ years</p1></dt>
+			<dt>Unity - <p1 style="color:darkgrey">less than 1 year</p1></dt>
+			<dt>C/C++/CSS/HTML - <p1 style="color:darkgrey">less than 1 year</p1></dt>
+			<dt>Re-imaging computers - <p1 style="color:darkgrey">less than 1 year</p1></dt>
+		</dl>
 	</div>
 </body>
 </html>

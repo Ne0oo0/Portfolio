@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Jquery, my sheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="StyleIndex2.css">
+
+    <!-- Phone Scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title style="font-family:'MS Gothic'">Preston McCubbin Portfolio</title>
+
+    <script>
+        $(document).ready(function () {
+            $("#title1").fadeIn(4000);
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#midBox").slideDown(1500);
+        });
+
+		$(document).ready(function () {
+			$("#sideBox").animate({width:'toggle'},950);
+        });
+
+		$(document).ready(function () {
+			$("#skills").fadeIn(4000);
+        });
+
+		$(document).ready(function () {
+			$("#certs").fadeIn(4000);
+		});
+
+
+    </script>
+
+    <style>
+        body, html {
+            height: 108%;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Syncopate', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2vw;
+            line-height: 1.2;
+            font-size: 3vw;
+            text-align: center;
+        }
+
+        Rboxh1 {
+            font-size: 50px;
+            font-family: Raleway;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.60vw;
+            line-height: 1.2;
+            font-size: 2.4vw;
+            text-align: center;
+        }
+
+        Rboxh2 {
+            font-size: 50px;
+            font-family: Raleway;
+            color: #c1d9ff;
+            letter-spacing: 0.10vw;
+            line-height: 1;
+            font-size: 1.0vw;
+            text-align: center;
+        }
+
+        Rboxp1 {
+            font-family: 'Syncopate', sans-serif;
+            color: lightgrey;
+            font-size: 1.1vw;
+            line-height: 40px;
+            font-weight: lighter;
+            text-align: right;
+        }
+
+
+        uline {
+            border-bottom: 1px solid white;
+            padding: 10px 90px 4px;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: black">
+
+    <video autoplay muted loop id="myVideo">
+        <source src="wave.mp4" type="video/mp4">
+    </video>
+
+    <div class="topBar">
+        <a href="index.html">Home</a>
+        <a class="active" href="index2.html">Experience</a>
+        <a href="index3.html">Academic Career</a>
+        <a href="index4.html">About</a>
+    </div>
+
+    <div id="midBox" class="midBox">
+        <Rboxh1 style="">Experience</Rboxh1>
+
+        <hr style="width:45vw">
+
+        <dl id="skills" class="skillsUL">
+            <dt style="font-size:1.1vw;">Interned for the Information Technology Department of Metro - <p1 style="color:darkgrey; font-size: 0.9vw;">I refurbished, replaced, and restored technological devices throughout the city and metro area. I did onsite visits with many high ranking officials, police divisions, and government buildings to replace, setup, or restore the device they needed. As well, I worked from our building to call customers that needed assistance and remote into their computers to fix the problem.</p1></dt>
+            <dt style="font-size:1.1vw;"> Hot Topic Sales Associate - <p1 style="color:darkgrey; font-size: 0.9vw;">I'm curently employed at Hot Topic St.Matthews as a Sales Associate/Temp Key Holder. We work hard at our job to ensure that every comsumer has a friendship like relationship with all workers and make them feel welcomed. I do jobs such as, cashier, reorganizing store, communicating with customers/helping, and temporarily takeover manager duties.  </p1></dt>
+            <dt style="font-size:1.1vw;">Reimaging and setting up computers - <p1 style="color:darkgrey; font-size: 0.9vw;">At the Information Technology Department I reimaged computers for various places around louisville and have gotten familiar with imaging on a large scale for companies and departments.</p1></dt>
+        </dl>
+
+        <hr style="width:40vw">
+
+
+    </div>
+    <div id="sideBox" class="sideBox">
+        <div class="sideheader">
+            <h3 style="position: absolute; top: 0.5vw; left: 1vw; font-size:2vw;">Volunteer</h3>
+            <hr style="width:9vw; position: absolute; top: 3.4vw; left: 1vw;">
+            <ul id="certs" class="certs">
+                <li>Refurbished and reimaged over 100 computers in support of Louisville</li>
+                <li>Metro Housing Authority as a member of Fern Creek Computer Club.</li>
+                <li>School and community environmental program – Fern Creek</li>
+                <li>Louisville Public Community garden work/management</li>
+                <li>Representative of Fern Creek High for the city’s School Showcase</li>
+            </ul>
+
+        </div>
+        
+    </div>
+</body>
+</html>

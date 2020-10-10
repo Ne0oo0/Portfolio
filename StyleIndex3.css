@@ -1,7 +1,6 @@
 ﻿
 /*Bar customize*/
 .topBar {
-    display:none;
     font-family: 'Syncopate', sans-serif;
     color: white;
     letter-spacing: 0.2vw;
@@ -23,34 +22,37 @@
         padding: 10px 40px;
         text-decoration: none;
     }
-    /*hover customize*/
-    .topBar a:hover {
-        border: thin solid black;
-        background-color: #728eee
-    }
-    /*active customize*/
-    .topBar a.active {
-        text-shadow: 1px 2px 0px white;
-        background-color: white;
-        color: black
-    }
+        /*hover customize*/
+        .topBar a:hover {
+            border: thin solid black;
+            background-color: #728eee
+        }
+        /*active customize*/
+        .topBar a.active {
+            text-shadow: 1px 2px 0px white;
+            background-color: white;
+            color: black
+        }
 
 
 /*skills list customize*/
 .skillsUL {
+    display: none;
     font-family: 'Syncopate', sans-serif;
     list-style: circle;
     margin: 1vw;
     color: white;
     text-align: left;
-    line-height:2vw
+    line-height: 2vw
 }
 
 .certs {
+    display: none;
+    font-family: 'Syncopate', sans-serif;
     position: absolute;
-    top: 2vw;
+    top: 18%;
     right: 16px;
-    color:white;
+    color: white;
     text-align: left;
     line-height: 2vw;
     font-size: 1vw;
@@ -58,6 +60,7 @@
 
 /*middle large box customize*/
 .midBox {
+    display: none;
     width: 50%;
     height: 60%;
     background-color: rgb(0,0,0); /* Fallback color */
@@ -67,48 +70,58 @@
     outline: double 4px #6a85eb;
     position: absolute;
     padding: 10px;
-    top: 110%;
+    top: 25%;
     left: 40%;
     text-align: center;
 }
-/*header customize*/
-.sideheader {
-    background-image: url("sideimage.jpg");
-    padding: 100px;
-    height: 10%;
-    text-align: center;
-    color:white;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 50px 50px 50px 0 black inset, -50px -50px 50px 20px black inset;
-    font-size: 60px;
-    border-bottom: 3px solid white;
-}
+
 /*left side box customize*/
 .sideBox {
+    display: none;
     margin: auto;
+    top: 25%;
+    left: 12%;
     width: 25%;
     height: 60%;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.95);
+    background-color: rgba(0,0,0, 0.80);
     color: white;
     border: 3px solid white;
     outline: double 4px #6a85eb;
     position: absolute;
     padding: 10px;
-    top: 110%;
-    left: 12%;
     text-align: center;
 }
 
-.viewport-header {
-    position: relative;
-    height: 100%;
+
+.botBox {
+    margin: auto;
+    top: 90%;
+    left: 40%;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.75);
+    color: red;
+    border: 3px solid white;
+    outline: double 4px #6a85eb;
+    position: absolute;
+    padding: 10px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+/*header sidebox customize*/
+.sideheader {
+    padding: 100px;
+    height: 10%;
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 50px 50px 50px 0 black inset, -50px -50px 50px 20px black inset;
+    font-size: 60px;
+    /*border-bottom: 3px solid white;*/
 }
 
 /*background video positioning*/
@@ -120,3 +133,15 @@
     top: 0;
     left: 0;
 }
+
+/*.viewport-header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+

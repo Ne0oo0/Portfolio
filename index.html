@@ -17,8 +17,13 @@
 
 	<script>
 		$(document).ready(function () {
+			$("#topbar").slideDown(1000);
+		});
+
+		$(document).ready(function () {
 			$("#title1").fadeIn(4000);
 		});
+
 	</script>
 
 	<style>
@@ -72,8 +77,6 @@
 			border-bottom: 1px solid white;
 			padding: 10px 90px 4px;
 		}
-
-
 	</style>
 
 </head>
@@ -91,12 +94,11 @@
 
 		</h1>
 	</header>
-
-	<div class="topBar">
+	<div id="topbar" class="topBar">
 		<a class="active" href="index.html">Home</a>
-		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
-		<a href="#about">About</a>
+		<a href="index2.html">Experience</a>
+		<a href="index3.html">Academic Career</a>
+		<a href="index4.html">About</a>
 	</div>
 
 	<div class="midBox">
@@ -112,7 +114,7 @@
 
 		<hr style="width:35vw">
 		<a href="Resume.pdf" download>
-			<img style="float:left; filter: hue-rotate(180deg);" src="resume.png" alt="resumeIcon" height="87">
+			<img style="float:left" src="resume.png" alt="resumeIcon" height="87">
 		</a>
 		<h3 style="text-align:left; color: white; font-weight:lighter">-- Resume download</h3>
 
@@ -120,6 +122,14 @@
 	</div>
 	<div class="sideBox">
 		<div class="sideheader">
+			<h3 style="position: absolute; top: 0.5vw; left: 1vw; font-size:1vw;">Certifications</h3>
+			<hr style="width:7vw; position: absolute; top: 1vw; left: 1vw;">
+			<ul class="certs">
+				<li>Computer Technology certification</li>
+				<li>Microsoft (98 -381) - Introduction to Programming Using Python</li>
+				<li>MTA Certification (Microsoft Technology Associates)</li>
+			</ul>
+
 		</div>
 		<dl class="skillsUL">
 			<dt>Computational thinking skills - <p1 style="color:darkgrey">4+ years</p1></dt>
